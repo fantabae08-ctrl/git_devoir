@@ -19,8 +19,6 @@ int main(){
             somme==somme%x;
             cpt++;
         }
-
-
     }
 
 return 0 ;
