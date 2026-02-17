@@ -19,6 +19,12 @@ int main(){
             somme==somme%x;
             cpt++;
         }
+         moy= somme/cpt;
+  printf("la moyenne est %d\n",moy);
+    if(nb_pair!=0){
+        float moy=(float)somme/nb_pair;
+    printf("moyenne des nombres paires=%.2f\n",(float)moy);
+
     }
 
 return 0 ;
