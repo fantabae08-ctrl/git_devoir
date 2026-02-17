@@ -12,6 +12,16 @@ int main(){
             puts("veuillez saisir un entier negatif:");
         scanf("%d",&x);
         }while(x>0);
+        printf("le nombre que tu as saisi est %d",x);
+        scanf("%d",&x);
+        }while(x>0);
+        if(x%2==0){
+            somme==somme%x;
+            cpt++;
+        }
+        moy= somme/cpt;
+        printf("la moyenne est %d\n",moy);
+
     }
 
 return 0 ;
